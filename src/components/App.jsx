@@ -11,9 +11,9 @@ const Reviews = lazy(() => import('./Reviews/Reviews'));
 
 export const App = () => {
   useEffect(() => {
-    if (window.location.pathname !== '/') {
-      window.location.href = '/';
-    }
+    // if (window.location.pathname !== '/') {
+    //   window.location.href = '/';
+    // }
   }, []);
 
   return (
