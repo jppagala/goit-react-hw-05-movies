@@ -1,0 +1,12 @@
+.movieItem {
+  margin: 5px 0px;
+}
+
+.movieItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.movieItem a:hover {
+  color: #5ec5b9;
+}
