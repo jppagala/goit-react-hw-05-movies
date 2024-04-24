@@ -1,4 +1,4 @@
-import React, { useEffect, lazy } from 'react';
+import React, { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import css from './App.module.css';
 
@@ -10,12 +10,6 @@ const Cast = lazy(() => import('./Cast/Cast'));
 const Reviews = lazy(() => import('./Reviews/Reviews'));
 
 export const App = () => {
-  useEffect(() => {
-    // if (window.location.pathname !== '/') {
-    //   window.location.href = '/';
-    // }
-  }, []);
-
   return (
     <div className={css.app}>
       <Routes>
